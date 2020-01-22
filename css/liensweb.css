@@ -1,0 +1,42 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #eee;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+span {
+    font-weight: normal;
+    font-size: 80%;
+}
+
+.lien {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/*Ajouté par moi*/
+
+button{
+  width: 12.5%;
+  border-color: #CFCECE;
+  border-radius: 1rem;
+}
+
+#submit{
+  width: 10%;
+  border-color: #CFCECE;
+  border-radius: 1rem;
+}
+
+#messConfirmation{
+  display: flex;
+  background-color: #75D1FA;
+  height: 4rem;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1%;
+  padding-left: 1%;
+}

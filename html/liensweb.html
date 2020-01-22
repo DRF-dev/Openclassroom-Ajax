@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/liensweb.css">
+    <title>Activité 2</title>
+</head>
+
+<body>
+    <h1>Activité 2</h1>
+    <!-- Les nouveaux éléments sont ajoutés dans cette balise -->
+
+    <!-- Les message de confirmation -->
+    <div id="messConfirmation">
+      test
+    </div>
+    <!-- js ajout des lien dans notre tableau -->
+    <form class="cacher" action="" method="post">
+      <input type="text" placeholder="Entrer votre nom" id="nom"/>
+      <input type="text" size="40" placeholder="Entrer le titre du lien" id="titreLien"/>
+      <input type="text" size="40" placeholder="Entrer l'URL du lien" id="url"/>
+      <button type="button" id="submit">Ajouter</button>
+    </form>
+    <button type="button" id="ajoutLien">Ajouter un lien</button>
+    <!-- La liste des liens -->
+    <div id="contenu">
+    </div>
+
+    <!-- Lien avec notre js -->
+    <script src="../js/ajax.js"></script>
+    <script src="../js/liensWebV2.js"></script>
+</body>
+
+</html>
